@@ -1,115 +1,212 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{agarwal-etal-2024-analyzing,
+  selected    = {true},
+  abbr        = {LREC-COLING},
+  bibtex_show = {true},
+  title       = {Analyzing Symptom-based Depression Level Estimation through the Prism of Psychiatric Expertise},
+  author      = {Agarwal, Navneet*  and
+                 Milintsevich, Kirill*  and
+                 Metivier, Lucie  and
+                 Rotharmel, Maud  and
+                 Dias, Ga{\"e}l  and
+                 Dollfus, Sonia},
+  editor      = {Calzolari, Nicoletta  and
+                 Kan, Min-Yen  and
+                 Hoste, Veronique  and
+                 Lenci, Alessandro  and
+                 Sakti, Sakriani  and
+                 Xue, Nianwen},
+  booktitle   = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  month       = may,
+  year        = {2024},
+  annotation  = {* Authors contributed equally.},
+  address     = {Torino, Italia},
+  publisher   = {ELRA and ICCL},
+  url         = {https://aclanthology.org/2024.lrec-main.87},
+  pages       = {974--983},
+  abstract    = {The ever-growing number of people suffering from mental distress has motivated significant research initiatives towards automated depression estimation. Despite the multidisciplinary nature of the task, very few of these approaches include medical professionals in their research process, thus ignoring a vital source of domain knowledge. In this paper, we propose to bring the domain experts back into the loop and incorporate their knowledge within the gold-standard DAIC-WOZ dataset. In particular, we define a novel transformer-based architecture and analyse its performance in light of our expert annotations. Overall findings demonstrate a strong correlation between the psychological tendencies of medical professionals and the behavior of the proposed model, which additionally provides new state-of-the-art results.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{milintsevich-etal-2024-evaluating,
+  code        = {https://github.com/501Good/dialogue-classifier},
+  bibtex_show = {true},
+  title       = {Evaluating Lexicon Incorporation for Depression Symptom Estimation},
+  author      = {Milintsevich, Kirill  and
+                 Dias, Ga{\"e}l  and
+                 Sirts, Kairit},
+  editor      = {Naumann, Tristan  and
+                 Ben Abacha, Asma  and
+                 Bethard, Steven  and
+                 Roberts, Kirk  and
+                 Bitterman, Danielle},
+  booktitle   = {Proceedings of the 6th Clinical Natural Language Processing Workshop},
+  month       = jun,
+  year        = {2024},
+  address     = {Mexico City, Mexico},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/2024.clinicalnlp-1.28},
+  doi         = {10.18653/v1/2024.clinicalnlp-1.28},
+  pages       = {322--328},
+  abstract    = {This paper explores the impact of incorporating sentiment, emotion, and domain-specific lexicons into a transformer-based model for depression symptom estimation. Lexicon information is added by marking the words in the input transcripts of patient-therapist conversations as well as in social media posts. Overall results show that the introduction of external knowledge within pre-trained language models can be beneficial for prediction performance, while different lexicons show distinct behaviours depending on the targeted task. Additionally, new state-of-the-art results are obtained for the estimation of depression level over patient-therapist interviews.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{milintsevich-etal-2024-model,
+  code        = {https://github.com/501Good/primate-anhedonia},
+  bibtex_show = {true},
+  title       = {Your Model Is Not Predicting Depression Well And That Is Why: A Case Study of {PRIMATE} Dataset},
+  author      = {Milintsevich, Kirill  and
+                 Sirts, Kairit  and
+                 Dias, Ga{\"e}l},
+  editor      = {Yates, Andrew  and
+                 Desmet, Bart  and
+                 Prud{'}hommeaux, Emily  and
+                 Zirikly, Ayah  and
+                 Bedrick, Steven  and
+                 MacAvaney, Sean  and
+                 Bar, Kfir  and
+                 Ireland, Molly  and
+                 Ophir, Yaakov},
+  booktitle   = {Proceedings of the 9th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2024)},
+  month       = mar,
+  year        = {2024},
+  address     = {St. Julians, Malta},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/2024.clpsych-1.13},
+  pages       = {166--171},
+  abstract    = {This paper addresses the quality of annotations in mental health datasets used for NLP-based depression level estimation from social media texts. While previous research relies on social media-based datasets annotated with binary categories, i.e. depressed or non-depressed, recent datasets such as D2S and PRIMATE aim for nuanced annotations using PHQ-9 symptoms. However, most of these datasets rely on crowd workers without the domain knowledge for annotation. Focusing on the PRIMATE dataset, our study reveals concerns regarding annotation validity, particularly for the lack of interest or pleasure symptom. Through reannotation by a mental health professional, we introduce finer labels and textual spans as evidence, identifying a notable number of false positives. Our refined annotations, to be released under a Data Use Agreement, offer a higher-quality test set for anhedonia detection. This study underscores the necessity of addressing annotation quality issues in mental health datasets, advocating for improved methodologies to enhance NLP model reliability in mental health assessments.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{milintsevich2023towards,
+  code        = {https://git.unicaen.fr/kirill.milintsevich/hierarchical-depression-symptom-classifier},
+  selected    = {true},
+  abbr        = {Brain Informatics},
+  bibtex_show = {true},
+  title       = {Towards automatic text-based estimation of depression through symptom prediction},
+  author      = {Milintsevich, Kirill and Sirts, Kairit and Dias, Ga{\"e}l},
+  journal     = {Brain Informatics},
+  volume      = {10},
+  number      = {1},
+  pages       = {1--14},
+  year        = {2023},
+  publisher   = {SpringerOpen}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{milintsevich-agarwal-2023-calvados,
+  code        = {https://github.com/501Good/MEDIQA-Chat-2023-Calvados},
+  bibtex_show = {true},
+  title       = {{C}alvados at {MEDIQA}-Chat 2023: Improving Clinical Note Generation with Multi-Task Instruction Finetuning},
+  author      = {Milintsevich, Kirill  and
+                 Agarwal, Navneet},
+  editor      = {Naumann, Tristan  and
+                 Ben Abacha, Asma  and
+                 Bethard, Steven  and
+                 Roberts, Kirk  and
+                 Rumshisky, Anna},
+  booktitle   = {Proceedings of the 5th Clinical Natural Language Processing Workshop},
+  month       = jul,
+  year        = {2023},
+  address     = {Toronto, Canada},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/2023.clinicalnlp-1.56},
+  doi         = {10.18653/v1/2023.clinicalnlp-1.56},
+  pages       = {529--535},
+  abstract    = {This paper presents our system for the MEDIQA-Chat 2023 shared task on medical conversation summarization. Our approach involves finetuning a LongT5 model on multiple tasks simultaneously, which we demonstrate improves the model{'}s overall performance while reducing the number of factual errors and hallucinations in the generated summary. Furthermore, we investigated the effect of augmenting the data with in-text annotations from a clinical named entity recognition model, finding that this approach decreased summarization quality. Lastly, we explore using different text generation strategies for medical note generation based on the length of the note. Our findings suggest that the application of our proposed approach can be beneficial for improving the accuracy and effectiveness of medical conversation summarization.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{milintsevich-sirts-2021-enhancing,
+  code        = {https://github.com/501Good/lexicon-enhanced-lemmatization},
+  selected    = {true},
+  abbr        = {EACL},
+  bibtex_show = {true},
+  title       = {Enhancing Sequence-to-Sequence Neural Lemmatization with External Resources},
+  author      = {Milintsevich, Kirill  and
+                 Sirts, Kairit},
+  editor      = {Merlo, Paola  and
+                 Tiedemann, Jorg  and
+                 Tsarfaty, Reut},
+  booktitle   = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+  month       = apr,
+  year        = {2021},
+  address     = {Online},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/2021.eacl-main.272},
+  doi         = {10.18653/v1/2021.eacl-main.272},
+  pages       = {3112--3122},
+  abstract    = {We propose a novel hybrid approach to lemmatization that enhances the seq2seq neural model with additional lemmas extracted from an external lexicon or a rule-based system. During training, the enhanced lemmatizer learns both to generate lemmas via a sequential decoder and copy the lemma characters from the external candidates supplied during run-time. Our lemmatizer enhanced with candidates extracted from the Apertium morphological analyzer achieves statistically significant improvements compared to baseline models not utilizing additional lemma information, achieves an average accuracy of 97.25{\%} on a set of 23 UD languages, which is 0.55{\%} higher than obtained with the Stanford Stanza model on the same set of languages. We also compare with other methods of integrating external data into lemmatization and show that our enhanced system performs considerably better than a simple lexicon extension method based on the Stanza system, and it achieves complementary improvements w.r.t. the data augmentation method.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@incollection{milintsevich2020lexicon,
+  abbr        = {Baltic HLT},
+  bibtex_show = {true},
+  title       = {Lexicon-Enhanced Neural Lemmatization for {E}stonian},
+  author      = {Milintsevich, Kirill and Sirts, Kairit},
+  booktitle   = {Human Language Technologies--The Baltic Perspective},
+  pages       = {158--165},
+  year        = {2020},
+  publisher   = {IOS Press},
+  abstract    = {We propose a novel approach for Estonian lemmatization that enriches the seq2seq neural lemmatization model with lemma candidates generated by the rule-based VABAMORF morphological analyser. In this way, the neural decoder can benefit from the additional input considering that it has a high likelihood of including the correct lemma. We develop our model by stacking two interconnected layers of attention in the decoder—one attending to the input word and another to the candidates obtained from the morphological analyser. We show that the lexicon-enhanced model achieves statistically significant improvements in lemmatization compared to baseline models not utilizing additional lemma information and achieves a new best result on lemmatization on the Estonian UD test set.},
+  doi         = {10.3233/FAIA200618},
+  url         = {https://ebooks.iospress.nl/doi/10.3233/FAIA200618}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@incollection{kittask2020evaluating,
+  abbr        = {Baltic HLT},
+  bibtex_show = {true},
+  title       = {Evaluating Multilingual {BERT} for {E}stonian},
+  author      = {Kittask, Claudia and Milintsevich, Kirill and Sirts, Kairit},
+  booktitle   = {Human Language Technologies--The Baltic Perspective},
+  pages       = {19--26},
+  year        = {2020},
+  publisher   = {IOS Press},
+  doi         = {10.3233/FAIA200597},
+  abstract    = {Recently, large pre-trained language models, such as BERT, have reached state-of-the-art performance in many natural language processing tasks, but for many languages, including Estonian, BERT models are not yet available. However, there exist several multilingual BERT models that can handle multiple languages simultaneously and that have been trained also on Estonian data. In this paper, we evaluate four multilingual models—multilingual BERT, multilingual distilled BERT, XLM and XLM-RoBERTa—on several NLP tasks including POS and morphological tagging, NER and text classification. Our aim is to establish a comparison between these multilingual BERT models and the existing baseline neural models for these tasks. Our results show that multilingual BERT models can generalise well on different Estonian NLP tasks outperforming all baselines models for POS and morphological tagging and text classification, and reaching the comparable level with the best baseline for NER, with XLM-RoBERTa achieving the highest results compared with other multilingual models.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{ponomareva-etal-2017-automated,
+  code        = {https://github.com/MashaPo/russtress},
+  selected    = {true},
+  bibtex_show = {true},
+  title       = {Automated Word Stress Detection in {R}ussian},
+  author      = {Ponomareva, Maria  and
+                 Milintsevich, Kirill  and
+                 Chernyak, Ekaterina  and
+                 Starostin, Anatoly},
+  editor      = {Faruqui, Manaal  and
+                 Schuetze, Hinrich  and
+                 Trancoso, Isabel  and
+                 Yaghoobzadeh, Yadollah},
+  booktitle   = {Proceedings of the First Workshop on Subword and Character Level Models in {NLP}},
+  month       = sep,
+  year        = {2017},
+  address     = {Copenhagen, Denmark},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/W17-4104},
+  doi         = {10.18653/v1/W17-4104},
+  pages       = {31--35},
+  abstract    = {In this study we address the problem of automated word stress detection in Russian using character level models and no part-speech-taggers. We use a simple bidirectional RNN with LSTM nodes and achieve accuracy of 90{\%} or higher. We experiment with two training datasets and show that using the data from an annotated corpus is much more efficient than using only a dictionary, since it allows to retain the context of the word and its morphological features.}
+}
+
+@inproceedings{chernyak-etal-2019-char,
+  bibtex_show = {true},
+  title       = {Char-{RNN} for Word Stress Detection in {E}ast {S}lavic Languages},
+  author      = {Chernyak, Ekaterina  and
+                 Ponomareva, Maria  and
+                 Milintsevich, Kirill},
+  editor      = {Zampieri, Marcos  and
+                 Nakov, Preslav  and
+                 Malmasi, Shervin  and
+                 Ljube{\v{s}}i{\'c}, Nikola  and
+                 Tiedemann, J{\"o}rg  and
+                 Ali, Ahmed},
+  booktitle   = {Proceedings of the Sixth Workshop on {NLP} for Similar Languages, Varieties and Dialects},
+  month       = jun,
+  year        = {2019},
+  address     = {Ann Arbor, Michigan},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/W19-1404},
+  doi         = {10.18653/v1/W19-1404},
+  pages       = {35--41},
+  abstract    = {We explore how well a sequence labeling approach, namely, recurrent neural network, is suited for the task of resource-poor and POS tagging free word stress detection in the Russian, Ukranian, Belarusian languages. We present new datasets, annotated with the word stress, for the three languages and compare several RNN models trained on three languages and explore possible applications of the transfer learning for the task. We show that it is possible to train a model in a cross-lingual setting and that using additional languages improves the quality of the results.}
 }
