@@ -26,6 +26,12 @@
   },
   "work": [
     {
+      "name": "Institut national de l'audiovisuel",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2024-12",
+      "summary": "Working with the transcriptions of the TV broadcastings."
+    },
+    {
       "name": "TransPerfect",
       "position": "NLP Engineer",
       "startDate": "2022-05",
