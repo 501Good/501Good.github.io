@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Kirill Milintsevich",
-    "label": "Researcher (NLP / Medical AI)",
+    "label": "NLP Researcher",
     "image": "",
     "email": "me@milintsevich.com",
     "phone": "",
     "url": "https://scholar.google.com/citations?user=BQNVCjYAAAAJ&hl=en",
     "summary": "Throughout my academic career, I have explored a range of topics within the field of NLP, including, but not limited to, low-resource languages, morphology, language generation, and mental health.",
     "location": {
-      "city": "Caen",
+      "city": "Paris",
       "countryCode": "FR"
     },
     "profiles": [
@@ -29,7 +29,7 @@
       "name": "Institut national de l'audiovisuel",
       "position": "Postdoctoral Researcher",
       "startDate": "2024-12",
-      "summary": "Working with the transcriptions of the TV broadcastings."
+      "summary": "Working with the transcriptions of French TV and radio broadcastings."
     },
     {
       "name": "TransPerfect",
