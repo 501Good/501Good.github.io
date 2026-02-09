@@ -8,4 +8,4 @@ year: 2023
 term: Fall
 location: University of Caen Normandy
 course_id: web-development-2023
-
+---

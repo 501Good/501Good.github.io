@@ -8,4 +8,4 @@ year: 2023
 term: Spring
 location: University of Caen Normandy
 course_id: advanced-nlp-2023
-
+---

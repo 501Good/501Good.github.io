@@ -11,6 +11,7 @@ term: Spring
 location: Delta building (Narva mnt 18)
 time: Fridays at 10:15, Fridays at 12:15
 course_id: natural-language-processing-2019
+---
 
 ## Course Overview
 
