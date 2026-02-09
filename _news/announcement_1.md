@@ -7,6 +7,3 @@ related_posts: false
 ---
 
 I'm looking for a postdoc position in France! Excited to work on a topic that combines NLP and (mental) health, and also open to work on other NLP related topics.
-
-
-

@@ -7,5 +7,3 @@ related_posts: false
 ---
 
 I am happy to announce that from this December I am starting a new page in my life as a postdoctoral researcher in the Institut national de l'audiovisuel!
-
-

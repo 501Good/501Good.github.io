@@ -7,5 +7,3 @@ related_posts: false
 ---
 
 I have successfully defended my PhD thesis _Estimation of Depression Level from Text: Symptom-Based Approach, External Knowledge, Dataset Validity_ which is available here: [https://hdl.handle.net/10062/106041](https://hdl.handle.net/10062/106041)
-
-
