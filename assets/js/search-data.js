@@ -89,49 +89,49 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-advanced-nlp-2023",
-          title: 'Advanced Nlp 2023',
-          description: "",
+            },},{id: "teachings-advanced-nlp",
+          title: 'Advanced NLP',
+          description: "Spring 2023-2024, Master&#39;s Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/advanced-nlp-2023/";
-            },},{id: "teachings-intro-nlp-2023",
-          title: 'Intro Nlp 2023',
-          description: "",
+            },},{id: "teachings-introduction-to-oop-in-python",
+          title: 'Introduction to OOP in Python',
+          description: "Spring 2023-2024, Bachelor&#39;s Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/intro-nlp-2023/";
-            },},{id: "teachings-intro-oop-2023",
-          title: 'Intro Oop 2023',
-          description: "",
+            },},{id: "teachings-advanced-nlp",
+          title: 'Advanced NLP',
+          description: "Spring 2023-2024, Bachelor&#39;s Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/intro-oop-2023/";
-            },},{id: "teachings-intro-programming-2023",
-          title: 'Intro Programming 2023',
-          description: "",
+            },},{id: "teachings-introduction-to-programming-in-python",
+          title: 'Introduction to Programming in Python',
+          description: "Fall 2023-2024, Bachelor&#39;s Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/intro-programming-2023/";
-            },},{id: "teachings-intro-pytorch-2023",
-          title: 'Intro Pytorch 2023',
-          description: "",
+            },},{id: "teachings-introduction-to-pytorch",
+          title: 'Introduction to Pytorch',
+          description: "Spring 2023-2024, PhD Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/intro-pytorch-2023/";
-            },},{id: "teachings-natural-language-processing-2019",
-          title: 'Natural Language Processing 2019',
-          description: "",
+            },},{id: "teachings-ltat-01-001-natural-language-processing",
+          title: 'LTAT.01.001 Natural language processing',
+          description: "This course aims to provide an overview of the main tasks in the field of natural language processing and to introduce the contemporary methods to address them. The course will cover tasks such as language modeling and word/sentence representations, text classification, sequence tagging for finding parts of speech or morphological features, information extraction such as named entity recognition, finding the important structural parts of a sentence as well as some higher level tasks such as machine translation. During recent years, the NLP field has more and more started to use deep neural models. Thus, in this course we will look at various deep neural models that are nowadays commonly used for NLP: recurrent networks for modeling sequential data, convolutional networks for text classification, static and contextual word embeddings, attention mechanism for finding alignment between different inputs or inputs and outputs.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/natural-language-processing-2019/";
-            },},{id: "teachings-natural-language-processing-2020",
-          title: 'Natural Language Processing 2020',
-          description: "",
+            },},{id: "teachings-ltat-01-001-natural-language-processing",
+          title: 'LTAT.01.001 Natural language processing',
+          description: "This course aims to provide an overview of the main tasks in the field of natural language processing and to introduce the contemporary methods to address them. The course will cover tasks such as language modeling and word/sentence representations, text classification, sequence tagging for finding parts of speech or morphological features, information extraction such as named entity recognition, finding the important structural parts of a sentence as well as some higher level tasks such as machine translation.During recent years, the NLP field has more and more started to use deep neural models. Thus, in this course we will look at various deep neural models that are nowadays commonly used for NLP: recurrent networks for modeling sequential data, convolutional networks for text classification, static and contextual word embeddings, attention mechanism for finding alignment between different inputs or inputs and outputs.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/natural-language-processing-2020/";
-            },},{id: "teachings-natural-language-processing-2021",
-          title: 'Natural Language Processing 2021',
-          description: "",
+            },},{id: "teachings-ltat-01-001-natural-language-processing",
+          title: 'LTAT.01.001 Natural language processing',
+          description: "This course aims to provide an overview of the main tasks in the field of natural language processing and to introduce the contemporary methods to address them. The course will cover tasks such as language modeling and word/sentence representations, text classification, sequence tagging for finding parts of speech or morphological features, information extraction such as named entity recognition, finding the important structural parts of a sentence as well as some higher level tasks such as machine translation.During recent years, the NLP field has more and more started to use deep neural models. Thus, in this course we will look at various deep neural models that are nowadays commonly used for NLP: recurrent networks for modeling sequential data, convolutional networks for text classification, static and contextual word embeddings, attention mechanism for finding alignment between different inputs or inputs and outputs.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/natural-language-processing-2021/";
-            },},{id: "teachings-web-development-2023",
-          title: 'Web Development 2023',
-          description: "",
+            },},{id: "teachings-web-development-html-amp-css",
+          title: 'Web Development, HTML &amp;amp; CSS',
+          description: "Fall 2023-2024, Bachelor&#39;s Level, University of Caen Normandy",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/web-development-2023/";
             },},{
@@ -139,42 +139,28 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Kirill_Milintsevich_CV_Postdoc_Web.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("mailto:%6D%65@%6D%69%6C%69%6E%74%73%65%76%69%63%68.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=BQNVCjYAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.linkedin.com/in/milintsevich", "_blank");
         },
       },{
       id: 'light-theme',
