@@ -89,16 +89,51 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-advanced-nlp-2023",
+          title: 'Advanced Nlp 2023',
+          description: "",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/advanced-nlp-2023/";
+            },},{id: "teachings-intro-nlp-2023",
+          title: 'Intro Nlp 2023',
+          description: "",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/intro-nlp-2023/";
+            },},{id: "teachings-intro-oop-2023",
+          title: 'Intro Oop 2023',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/intro-oop-2023/";
+            },},{id: "teachings-intro-programming-2023",
+          title: 'Intro Programming 2023',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/intro-programming-2023/";
+            },},{id: "teachings-intro-pytorch-2023",
+          title: 'Intro Pytorch 2023',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/intro-pytorch-2023/";
+            },},{id: "teachings-natural-language-processing-2019",
+          title: 'Natural Language Processing 2019',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/natural-language-processing-2019/";
+            },},{id: "teachings-natural-language-processing-2020",
+          title: 'Natural Language Processing 2020',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/natural-language-processing-2020/";
+            },},{id: "teachings-natural-language-processing-2021",
+          title: 'Natural Language Processing 2021',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/natural-language-processing-2021/";
+            },},{id: "teachings-web-development-2023",
+          title: 'Web Development 2023',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/web-development-2023/";
             },},{
         id: 'social-cv',
         title: 'CV',
