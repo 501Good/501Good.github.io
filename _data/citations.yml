@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-25'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
-    citations: 11
+    citations: 10
     title: Evaluating multilingual BERT for Estonian
     year: '2020'
   BQNVCjYAAAAJ:LkGwnXOMwfcC:
@@ -18,19 +18,19 @@ papers:
     title: Enhancing Sequence-to-Sequence Neural Lemmatization with External Resources
     year: '2021'
   BQNVCjYAAAAJ:W7OEmFMy1HYC:
-    citations: 4
-    title: 'Your Model Is Not Predicting Depression Well And That Is Why: A Case Study of PRIMATE Dataset'
+    citations: 5
+    title: 'Your model is not predicting depression well and that is why: A case study of primate dataset'
     year: '2024'
   BQNVCjYAAAAJ:WF5omc3nYNoC:
     citations: 0
     title: Automatic Text-Based Estimation of Depression Symptoms
     year: '2023'
   BQNVCjYAAAAJ:Y0pCki6q_DkC:
-    citations: 3
+    citations: 4
     title: Analyzing Symptom-based Depression Level Estimation through the Prism of Psychiatric Expertise
     year: '2024'
   BQNVCjYAAAAJ:YsMSGLbcyi4C:
-    citations: 2
+    citations: 3
     title: Evaluating Lexicon Incorporation for Depression Symptom Estimation
     year: '2024'
   BQNVCjYAAAAJ:_FxGoFyzp5QC:
@@ -45,12 +45,16 @@ papers:
     citations: 3
     title: Lexicon-Enhanced Neural Lemmatization for Estonian
     year: '2020'
+  BQNVCjYAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: "Estimation \u03BFf depression level from text: symptom-based approach, external knowledge, dataset validity"
+    year: '2024'
   BQNVCjYAAAAJ:u-x6o8ySG0sC:
     citations: 2
-    title: Char-RNN for Word Stress Detection in East Slavic Languages
+    title: Char-RNN for word stress detection in east slavic languages
     year: '2019'
   BQNVCjYAAAAJ:u5HHmVD_uO8C:
-    citations: 15
+    citations: 16
     title: Automated word stress detection in russian
     year: '2017'
   BQNVCjYAAAAJ:ufrVoPGSRksC:
@@ -58,6 +62,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 59
+    citations: 60
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
