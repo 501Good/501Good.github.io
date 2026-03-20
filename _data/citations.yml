@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-27'
+  last_updated: '2026-03-20'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 10
@@ -18,7 +18,7 @@ papers:
     title: Enhancing Sequence-to-Sequence Neural Lemmatization with External Resources
     year: '2021'
   BQNVCjYAAAAJ:W7OEmFMy1HYC:
-    citations: 5
+    citations: 6
     title: 'Your model is not predicting depression well and that is why: A case study of primate dataset'
     year: '2024'
   BQNVCjYAAAAJ:WF5omc3nYNoC:
@@ -54,7 +54,7 @@ papers:
     title: Char-RNN for word stress detection in east slavic languages
     year: '2019'
   BQNVCjYAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 17
     title: Automated word stress detection in russian
     year: '2017'
   BQNVCjYAAAAJ:ufrVoPGSRksC:
@@ -62,6 +62,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 62
+    citations: 65
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
