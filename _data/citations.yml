@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-15'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 10
@@ -9,6 +9,10 @@ papers:
     citations: 1
     title: 'Pantagruel: Unified Self-Supervised Encoders for French Text and Speech'
     year: '2026'
+  BQNVCjYAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: 'When the F1 Score Conceals Different Metrics: The Case of Quotation Detection'
+    year: Unknown Year
   BQNVCjYAAAAJ:Tyk-4Ss8FVUC:
     citations: 6
     title: 'Calvados at MEDIQA-Chat 2023: Improving Clinical Note Generation with Multi-Task Instruction Finetuning'
@@ -30,7 +34,7 @@ papers:
     title: Analyzing Symptom-based Depression Level Estimation through the Prism of Psychiatric Expertise
     year: '2024'
   BQNVCjYAAAAJ:YsMSGLbcyi4C:
-    citations: 3
+    citations: 4
     title: Evaluating Lexicon Incorporation for Depression Symptom Estimation
     year: '2024'
   BQNVCjYAAAAJ:_FxGoFyzp5QC:
@@ -62,6 +66,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 72
+    citations: 77
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
