@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-26'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 11
     title: Evaluating multilingual BERT for Estonian
     year: '2020'
   BQNVCjYAAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    citations: 4
     title: 'Pantagruel: Unified Self-Supervised Encoders for French Text and Speech'
     year: '2026'
   BQNVCjYAAAAJ:Se3iqnhoufwC:
@@ -21,6 +21,10 @@ papers:
     citations: 10
     title: Enhancing Sequence-to-Sequence Neural Lemmatization with External Resources
     year: '2021'
+  BQNVCjYAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: "Encodeurs autosupervis\xE9s unifi\xE9s entre les modalit\xE9s: focus sur la parole en fran\xE7ais"
+    year: '2026'
   BQNVCjYAAAAJ:W7OEmFMy1HYC:
     citations: 7
     title: 'Your model is not predicting depression well and that is why: A case study of primate dataset'
@@ -66,6 +70,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 79
+    citations: 80
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
