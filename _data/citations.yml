@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-01'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -14,7 +14,7 @@ papers:
     title: 'When the F1 Score Conceals Different Metrics: The Case of Quotation Detection'
     year: Unknown Year
   BQNVCjYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 7
+    citations: 8
     title: 'Calvados at MEDIQA-Chat 2023: Improving Clinical Note Generation with Multi-Task Instruction Finetuning'
     year: '2023'
   BQNVCjYAAAAJ:UeHWp8X0CEIC:
@@ -34,11 +34,11 @@ papers:
     title: Automatic Text-Based Estimation of Depression Symptoms
     year: '2023'
   BQNVCjYAAAAJ:Y0pCki6q_DkC:
-    citations: 5
+    citations: 6
     title: Analyzing Symptom-based Depression Level Estimation through the Prism of Psychiatric Expertise
     year: '2024'
   BQNVCjYAAAAJ:YsMSGLbcyi4C:
-    citations: 4
+    citations: 5
     title: Evaluating Lexicon Incorporation for Depression Symptom Estimation
     year: '2024'
   BQNVCjYAAAAJ:_FxGoFyzp5QC:
@@ -70,6 +70,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 80
+    citations: 82
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
