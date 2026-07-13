@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-13'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -70,6 +70,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 82
+    citations: 84
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
