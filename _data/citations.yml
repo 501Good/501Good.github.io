@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-17'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 11
     title: Evaluating multilingual BERT for Estonian
     year: '2020'
   BQNVCjYAAAAJ:LkGwnXOMwfcC:
-    citations: 4
+    citations: 5
     title: 'Pantagruel: Unified Self-Supervised Encoders for French Text and Speech'
     year: '2026'
   BQNVCjYAAAAJ:Se3iqnhoufwC:
