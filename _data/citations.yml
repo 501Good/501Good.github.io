@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-14'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -18,7 +18,7 @@ papers:
     title: 'Calvados at MEDIQA-Chat 2023: Improving Clinical Note Generation with Multi-Task Instruction Finetuning'
     year: '2023'
   BQNVCjYAAAAJ:UeHWp8X0CEIC:
-    citations: 10
+    citations: 11
     title: Enhancing Sequence-to-Sequence Neural Lemmatization with External Resources
     year: '2021'
   BQNVCjYAAAAJ:UebtZRa9Y70C:
@@ -34,7 +34,7 @@ papers:
     title: Automatic Text-Based Estimation of Depression Symptoms
     year: '2023'
   BQNVCjYAAAAJ:Y0pCki6q_DkC:
-    citations: 7
+    citations: 6
     title: Analyzing Symptom-based Depression Level Estimation through the Prism of Psychiatric Expertise
     year: '2024'
   BQNVCjYAAAAJ:YsMSGLbcyi4C:
@@ -62,7 +62,7 @@ papers:
     title: Char-RNN for word stress detection in east slavic languages
     year: '2019'
   BQNVCjYAAAAJ:u5HHmVD_uO8C:
-    citations: 17
+    citations: 19
     title: Automated word stress detection in russian
     year: '2017'
   BQNVCjYAAAAJ:ufrVoPGSRksC:
