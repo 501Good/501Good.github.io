@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-21'
 papers:
   BQNVCjYAAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -26,7 +26,7 @@ papers:
     title: "Encodeurs autosupervis\xE9s unifi\xE9s entre les modalit\xE9s: focus sur la parole en fran\xE7ais"
     year: '2026'
   BQNVCjYAAAAJ:W7OEmFMy1HYC:
-    citations: 7
+    citations: 8
     title: 'Your model is not predicting depression well and that is why: A case study of primate dataset'
     year: '2024'
   BQNVCjYAAAAJ:WF5omc3nYNoC:
@@ -70,6 +70,6 @@ papers:
     title: "Estimati\u03BFn \u03BFf depressi\u03BFn level fr\u03BFm text: sympt\u03BFm-based appr\u03BFach, external kn\u03BFwledge, dataset validity"
     year: '2024'
   BQNVCjYAAAAJ:zYLM7Y9cAGgC:
-    citations: 85
+    citations: 84
     title: Towards automatic text-based estimation of depression through symptom prediction
     year: '2023'
